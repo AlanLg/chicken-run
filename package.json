@@ -1,0 +1,29 @@
+{
+  "name": "chickenrun",
+  "version": "1.0.0",
+  "description": "chicken run ",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon ./src/server.js localhost 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlanLg/chicken-run.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlanLg/chicken-run/issues"
+  },
+  "homepage": "https://github.com/AlanLg/chicken-run#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "winston": "^3.8.2"
+  }
+}
