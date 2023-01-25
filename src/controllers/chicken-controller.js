@@ -31,8 +31,8 @@ export async function getOneChicken(req, res) {
 }
 
 export async function createChicken(req, res) {
-    const { name, weight } = req.body;
-    name.toLowerCase();
+    let { name, weight } = req.body;
+    name = name.toLowerCase();
 
     const chicken = new Chicken({
         name,
